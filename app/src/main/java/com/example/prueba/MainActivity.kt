@@ -73,6 +73,11 @@ class MainActivity : AppCompatActivity() {
                     val usuarioId = response.getInt("usuario_id")
                     val rol = response.getString("rol")
                     // Aquí puedes abrir otra pantalla o guardar sesión
+
+                    val intent = Intent(this, HomeActivity::class.java)
+                    startActivity(intent)
+                    finish()
+
                 }
             },
             { error ->

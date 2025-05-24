@@ -7,6 +7,7 @@ android {
     namespace = "com.example.prueba"
     compileSdk = 35
 
+
     defaultConfig {
         applicationId = "com.example.prueba"
         minSdk = 24
@@ -33,6 +34,8 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+
 }
 
 dependencies {
